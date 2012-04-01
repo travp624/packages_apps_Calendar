@@ -21,6 +21,7 @@
     <color name="pressed">#330066ff</color>
     <color name="selection">@android:color/holo_blue_light</color>
     <color name="today_highlight_color">#ff3eb0dd</color>
+    <!-- The app wide background color -->
     <color name="background_color">#ff000000</color>
     <color name="event_background">#ff000000</color>
     <color name="panel_text_foreground">#ffffffff</color>
@@ -66,22 +67,39 @@
     <color name="calendar_hidden">#ff707070</color>
     <color name="calendar_secondary_visible">#ffffffff</color>
     <color name="calendar_secondary_hidden">#ff707070</color>
+    <!-- Text color of the date in the Calendar widget -->
     <color name="agenda_item_not_selected">#00000000</color>
+    <!-- Text color of declined events in agenda view -->
     <color name="agenda_item_declined_color">#669f9f9f</color>
+    <!-- Text color of non-declined events in agenda view -->
     <color name="agenda_item_standard_color">#ffefefef</color>
+    <!-- Background Color of present/future events in agenda view  -->
     <color name="agenda_day_bar_background_color">#ff000000</color>
+    <!-- Background Color of past events in agenda view  -->
     <color name="agenda_past_days_bar_background_color">#ff000000</color>
+    <!-- Color of the separator between the past and the present/future in agenda view  -->
     <color name="agenda_past_present_separator_color">#ff306396</color>
+    <!-- General background color in agenda view  -->
     <color name="agenda_general_background_color">#ff000000</color>
+    <!-- Agenda day item text color  -->
     <color name="agenda_day_item_text_color">#ff33b5e5</color>
+    <!-- Color of the event location's text in an agenda item  -->
     <color name="agenda_item_where_text_color">#ffcfcfcf</color>
+    <!-- Color of the event location's text in an agenda item  -->
     <color name="agenda_item_where_declined_text_color">#66afafaf</color>
+    <!-- Color of text in the calendar view selection menu -->
     <color name="calendar_view_switch_menu_text_color">#ffc5c5c5</color>
+    <!-- Light color of text in the calendar view selection menu -->
     <color name="calendar_view_switch_menu_text_color_light">#ffc5c5c5</color>
+    <!-- Color of the separator between items in the agenda list -->
     <color name="agenda_list_separator_color">#963eb0dd</color>
+    <!-- Text color of a selected items in the agenda list - trumps all other text colors -->
     <color name="agenda_selected_background_color">@android:color/holo_blue_light</color>
+    <!-- Background color of a selected items in the agenda list -->
     <color name="agenda_selected_text_color">#ffffffff</color>
+    <!-- Text color of the "new event" hint in day and week views -->
     <color name="new_event_hint_text_color">#ffffffff</color>
+    <!-- Event info colors -->
     <color name="event_info_headline_color">#ffffffff</color>
     <color name="event_info_headline_link_color">#ff33b5e5</color>
     <color name="event_info_organizer_color">#ffcfcfcf</color>
@@ -97,8 +115,11 @@
     <color name="appwidget_date">#ffeeeeee</color>
     <color name="appwidget_week">@android:color/white</color>
     <color name="appwidget_month">#ffeeeeee</color>
+    <!-- Text color of declined events in widget view -->
     <color name="appwidget_item_declined_color">#66a0a0a0</color>
+    <!-- Text color of non-declined events in widget view -->
     <color name="appwidget_item_standard_color">#ffffffff</color>
+    <!-- Text color for all day events in widget view -->
     <color name="appwidget_item_allday_color">#ffffffff</color>
     <color name="appwidget_title">#ffffffff</color>
     <color name="appwidget_when">#ffffffff</color>
