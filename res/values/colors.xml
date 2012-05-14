@@ -18,31 +18,31 @@
 */
 -->
 <resources>
-    <color name="pressed">@drawable/blue_dark</color>
-    <color name="selection">@drawable/blue_light</color>
-    <color name="today_highlight_color">@drawable/blue_light</color>
+    <color name="pressed">@color/blue_dark</color>
+    <color name="selection">@color/blue_light</color>
+    <color name="today_highlight_color">@color/blue_light</color>
     <!-- The app wide background color -->
     <color name="background_color">#ff000000</color>
     <color name="event_background">#ff000000</color>
     <color name="panel_text_foreground">#ffffffff</color>
     <color name="calendar_event_text_color">#ffffffff</color>
     <color name="calendar_owner_text_color">#ffcfcfcf</color>
-    <color name="calendar_date_range_color">@drawable/blue_dark</color>
-    <color name="week_saturday">@drawable/blue_light</color>
-    <color name="week_sunday">@drawable/blue_light</color>
+    <color name="calendar_date_range_color">@color/blue_dark</color>
+    <color name="week_saturday">@color/blue_light</color>
+    <color name="week_sunday">@color/blue_light</color>
     <color name="calendar_future_bg_color">#ff000000</color>
-    <color name="calendar_hour_label">@drawable/blue_light</color>
-    <color name="calendar_ampm_label">@drawable/blue_light</color>
+    <color name="calendar_hour_label">@color/blue_light</color>
+    <color name="calendar_ampm_label">@color/blue_light</color>
     <color name="calendar_hour_background">#ff0a0a0a</color>
-    <color name="calendar_date_banner_background">@drawable/blue_light</color>
+    <color name="calendar_date_banner_background">@color/blue_light</color>
     <color name="calendar_date_banner_text_color">#ffefefef</color>
-    <color name="calendar_grid_area_selected">@drawable/blue_dark</color>
-    <color name="calendar_grid_line_inner_horizontal_color">@drawable/blue_light</color>
-    <color name="calendar_grid_line_inner_vertical_color">@drawable/blue_light</color>
-    <color name="calendar_grid_line_highlight_color">@drawable/blue_dark</color>
+    <color name="calendar_grid_area_selected">@color/blue_dark</color>
+    <color name="calendar_grid_line_inner_horizontal_color">@color/blue_light</color>
+    <color name="calendar_grid_line_inner_vertical_color">@color/blue_light</color>
+    <color name="calendar_grid_line_highlight_color">@color/blue_dark</color>
     <color name="mini_month_bg_color">#ff000000</color>
     <color name="mini_month_today_outline_color">#ff707070</color>
-    <color name="month_day_number">@drawable/blue_light</color>
+    <color name="month_day_number">@color/blue_light</color>
     <color name="month_mini_day_number">#ffdfdfdf</color>
     <color name="month_day_number_other">#ffffffff</color>
     <color name="month_week_num_color">#ffefefef</color>
@@ -52,17 +52,17 @@
     <color name="month_event_extra_color">#ffcfcfcf</color>
     <color name="month_event_other_color">#ffafafaf</color>
     <color name="month_event_extra_other_color">#4c999999</color>
-    <color name="month_saturday">@drawable/blue_dark</color>
-    <color name="month_sunday">@drawable/blue_dark</color>
-    <color name="month_grid_lines">@drawable/blue_dark</color>
+    <color name="month_saturday">@color/blue_dark</color>
+    <color name="month_sunday">@color/blue_dark</color>
+    <color name="month_grid_lines">@color/blue_dark</color>
     <color name="month_other_month_day_number">#ff000000</color>
     <color name="month_other_bgcolor">#ff081019</color>
     <color name="month_selected_week_bgcolor">#ff000000</color>
-    <color name="month_today_bgcolor">@drawable/blue_dark</color>
+    <color name="month_today_bgcolor">@color/blue_dark</color>
     <color name="month_bgcolor">#ff000000</color>
     <color name="month_dna_conflict_time_color">#ff9f9f9f</color>
-    <color name="event_center">@drawable/blue_dark</color>
-    <color name="edit_event_separator">@drawable/blue_dark</color>
+    <color name="event_center">@color/blue_dark</color>
+    <color name="edit_event_separator">@color/blue_dark</color>
     <color name="calendar_visible">#ffffffff</color>
     <color name="calendar_hidden">#ff707070</color>
     <color name="calendar_secondary_visible">#ffffffff</color>
@@ -78,11 +78,11 @@
     <!-- Background Color of past events in agenda view  -->
     <color name="agenda_past_days_bar_background_color">#ff000000</color>
     <!-- Color of the separator between the past and the present/future in agenda view  -->
-    <color name="agenda_past_present_separator_color">@drawable/blue_dark</color>
+    <color name="agenda_past_present_separator_color">@color/blue_dark</color>
     <!-- General background color in agenda view  -->
     <color name="agenda_general_background_color">#ff000000</color>
     <!-- Agenda day item text color  -->
-    <color name="agenda_day_item_text_color">@drawable/blue_light</color>
+    <color name="agenda_day_item_text_color">@color/blue_light</color>
     <!-- Color of the event location's text in an agenda item  -->
     <color name="agenda_item_where_text_color">#ffcfcfcf</color>
     <!-- Color of the event location's text in an agenda item  -->
@@ -92,16 +92,16 @@
     <!-- Light color of text in the calendar view selection menu -->
     <color name="calendar_view_switch_menu_text_color_light">#ffc5c5c5</color>
     <!-- Color of the separator between items in the agenda list -->
-    <color name="agenda_list_separator_color">@drawable/blue_light</color>
+    <color name="agenda_list_separator_color">@color/blue_light</color>
     <!-- Text color of a selected items in the agenda list - trumps all other text colors -->
-    <color name="agenda_selected_background_color">@drawable/blue_light</color>
+    <color name="agenda_selected_background_color">@color/blue_light</color>
     <!-- Background color of a selected items in the agenda list -->
     <color name="agenda_selected_text_color">#ffffffff</color>
     <!-- Text color of the "new event" hint in day and week views -->
     <color name="new_event_hint_text_color">#ffffffff</color>
     <!-- Event info colors -->
     <color name="event_info_headline_color">#ffffffff</color>
-    <color name="event_info_headline_link_color">@drawable/blue_light</color>
+    <color name="event_info_headline_link_color">@color/blue_light</color>
     <color name="event_info_organizer_color">#ffcfcfcf</color>
     <color name="event_info_description_color">#ffcfcfcf</color>
     <color name="event_info_body_color">#ffcfcfcf</color>
@@ -111,7 +111,7 @@
     <color name="alert_event_title">#ffffffff</color>
     <color name="alert_event_other">#ffcfcfcf</color>
     <color name="alert_past_event">#8fcfcfcf</color>
-    <color name="appwidget_row_in_progress">@drawable/blue_dark</color>
+    <color name="appwidget_row_in_progress">@color/blue_dark</color>
     <color name="appwidget_date">#ffeeeeee</color>
     <color name="appwidget_week">@android:color/white</color>
     <color name="appwidget_month">#ffeeeeee</color>
